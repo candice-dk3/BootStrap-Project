@@ -1,0 +1,56 @@
+body:not(section:first-child) {
+    background-color: #11001C;
+}
+#nav {
+    background: #1A0129;
+}
+.bar {
+    background-color: #11001C;
+    color: white;
+}
+
+.nav {
+    margin: 10px;
+    padding: 20px;
+}
+
+.blur {
+    color: yellow;
+}
+.Line {
+    position: absolute;
+    right: -11.2%;
+}
+.Line2 {
+    position: absolute;
+    top: 100%;
+    right: -7.2%;
+}
+.name {
+    position: absolute;
+    bottom: 50%;
+    right: 30%;
+}
+.name2 {
+    position: absolute;
+    top: 50%;
+    right: 35%; 
+}
+.CK, .developer {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    animation: typing 5s steps(40, end) forwards, blink-caret .80s step-end infinite;
+}
+@keyframes typing {
+    from{width: 0;}
+    to{width: 100%;}
+}
+@keyframes blink-caret {
+    0%, 100% {border-color: transparent;}
+    50% {border-color: #11001C;}
+}
+.bottom {
+    position: absolute;
+    bottom: 100%;
+}
